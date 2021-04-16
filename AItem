@@ -1,0 +1,17 @@
+public class AItem {
+    
+    private int attack;
+    
+    public AItem(int attack) {
+        this.attack = attack;
+    }
+    
+    public int setAttack(int attackPoints) {
+        attack = attackPoints;
+        return attack;
+    }
+    
+    public int getAttack() {
+        return attack;
+    }
+}
