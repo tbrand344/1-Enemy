@@ -1,0 +1,17 @@
+public class HItem {
+    
+    private int heal;
+    
+    public HItem(int heal) {
+        this.heal = heal;
+    }
+    
+    public int setHeal(int healPoints) {
+        heal = healPoints;
+        return heal;
+    }
+    
+    public int getHeal() {
+        return heal;
+    }
+}
