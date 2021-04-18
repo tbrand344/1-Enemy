@@ -14,7 +14,7 @@ public class Main {
         Enemy enemy2 = new Enemy("Koopa", 4, 2, "Shell Toss");
         Enemy enemy3 = new Enemy("Bowser", 10, 3, "Fire Breath");
     
-        System.out.println("\n\n\t\tEnemy Rumble\n");
+        System.out.println("\n\n\t\t1-Enemy\n");
     
         System.out.println("\tHey there Hero, what is your name?\n");
     
